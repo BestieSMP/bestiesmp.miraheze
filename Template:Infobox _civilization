@@ -1,0 +1,271 @@
+{{infobox
+| above = {{#if:{{{name|}}}|{{{name}}}|{{PAGENAMEBASE}}}}
+| subheader  = {{{subheader|}}}
+| autoheaders = y
+
+| image1 = {{#if:{{{image|}}}|  [[File:{{{image}}}|frameless|alt={{{alt|}}}|border|upright=.6|]]}}
+| caption1 = {{{caption|}}}
+
+| image2 = {{#if:{{{image2|}}}|  [[File:{{{image2}}}|frameless|alt={{{alt|}}}|border|upright=.6|]]}}
+| caption2 = {{{caption2|}}}
+
+| image3 = {{#if:{{{claims_map|}}}|  [[File:{{{claims_map}}}|frameless|alt={{{alt|}}}|border|upright=.6|]]}}
+
+| captionstyle = 
+
+| abovestyle = background:#eaecee;font-size:130%;padding:0.3em;
+| headerstyle  = background:#eaecee;
+
+| header1 = General
+
+| label2 = Location
+| data2  = {{{location|}}}
+
+| label3 = Demonym
+| data3  = {{{demonym|}}}
+
+| label4 = Activity level
+| data4  = {{{activity_level|}}}
+
+| label5 = Alliance
+| data5  = {{{alliance|}}}
+
+| label6 = Capital city
+| data6  = {{{capital_city|}}}
+
+| label7 = Settlements
+| data7  = {{{settlements|}}}
+
+| label8 = Territories
+| data8  = {{{territories|}}}
+
+| label9 = Currency
+| data9  = {{{currency|}}}
+
+| label10 = Area
+| data10 = {{{area|}}}
+
+| label11 = {{{general_custom_title1|}}}
+| data11  = {{{general_custom_value1|}}}
+
+| label12 = {{{general_custom_title2|}}}
+| data12  = {{{general_custom_value2|}}}
+
+| label14 = National Colors
+| data14 = {{#if:{{{national_color|}}}|{{legend|{{{national_color}}}|{{{nat_color_desc|}}} }} }}
+{{#if:{{{national_color_2|}}}|{{legend|{{{national_color_2}}}|{{{nat_color_desc_2|}}} }} }}
+{{#if:{{{national_color_3|}}}|{{legend|{{{national_color_3}}}|{{{nat_color_desc_3|}}} }} }}
+{{#if:{{{national_color_4|}}}|{{legend|{{{national_color_4}}}|{{{nat_color_desc_4|}}} }} }}
+{{#if:{{{national_color_5|}}}|{{legend|{{{national_color_5}}}|{{{nat_color_desc_5|}}} }} }}
+
+| header22 = Government
+
+| label23 = Government
+| data23  = {{{government_type|}}}
+
+| label24 = Governing document
+| data24  = {{{governing_document|}}}
+
+| label25 = <div style="text-indent:-0.9em;margin-left:1.2em;font-weight:normal;">•&nbsp;{{{position_title1|}}}
+| data25  = {{{position_name1|}}}
+
+| label26 = <div style="text-indent:-0.9em;margin-left:1.2em;font-weight:normal;">•&nbsp;{{{position_title2|}}}
+| data26  = {{{position_name2|}}}
+
+| label27 = <div style="text-indent:-0.9em;margin-left:1.2em;font-weight:normal;">•&nbsp;{{{position_title3|}}}
+| data27  = {{{position_name3|}}}
+
+| label28 = <div style="text-indent:-0.9em;margin-left:1.2em;font-weight:normal;">•&nbsp;{{{position_title4|}}}
+| data28  = {{{position_name4|}}}
+
+| label29 = <div style="text-indent:-0.9em;margin-left:1.2em;font-weight:normal;">•&nbsp;{{{position_title5|}}}
+| data29  = {{{position_name5|}}}
+
+| label30 = <div style="text-indent:-0.9em;margin-left:1.2em;font-weight:normal;">•&nbsp;{{{position_title6|}}}
+| data30  = {{{position_name6|}}}
+
+| header45 = Formation
+
+| label46 = Foundation date
+| data46  = {{{foundation_date|}}}
+
+| label47 = Foundation document
+| data47  = {{{foundation_document|}}}
+
+| label48 = {{{foundation_custom_title1|}}}
+| data48  = {{{foundation_custom_value1|}}}
+
+| label49 = Preceded by
+| data49  = {{{preceded_by|}}}
+
+| label50 = Succeeded by
+| data50  = {{{succeeded_by|}}}
+
+| header60 = Culture
+
+| label61 = Language
+| data61  = {{{language|}}}
+
+| label62 = Religion
+| data62  = {{{religion|}}}
+
+| label63 = Ideology
+| data63  = {{{ideology|}}}
+
+| label64 = Motto
+| data64  = {{{motto|}}}
+
+| label65 = National anthem
+| data65  = {{{national_anthem|}}}
+
+| label66 = Mascot
+| data66  = {{{mascot|}}}
+
+| label68 = {{{culture_custom_title1|}}}
+| data68  = {{{culture_custom_value1|}}}
+
+| label69 = {{{culture_custom_title2|}}}
+| data69  = {{{culture_custom_value2|}}}
+
+| header80 = Links
+
+| label81 = Website
+| data81  = {{{website|}}}
+
+| label82 = Subreddit
+| data82  = {{{subreddit|}}}
+
+| label83 = Discord
+| data83  = {{{discord|}}}
+
+| label84 = Matrix
+| data84  = {{{matrix|}}}
+}}
+<includeonly>{{#ifeq: {{lc:{{{categories}}}}} | no ||
+}}</includeonly>
+<noinclude>
+{{documentation}}<!-- Please add category and language links to the bottom of the /doc sub-page, not here -->
+<templatedata>
+{
+	"params": {
+		"name": {
+			"description": "Civilization name. Displays at top of infobox"
+		},
+		"subheader": {
+			"description": "Displays beneath civilization name. May be used for longer or alternate civilization name"
+		},
+		"image": {
+			"description": "Write the name of the flag only",
+			"example": "Flag.png",
+			"suggested": true
+		},
+		"alt": {},
+		"caption": {},
+		"image2": {},
+		"caption2": {},
+		"location": {
+			"description": "Coordinates in format `{{Coord|X|Z|R}}` where R is radius of ccmap view"
+		},
+		"demonym": {},
+		"activity_level": {
+			"description": "Inactive/Low/Medium/High (as of MONTH DAY YEAR)"
+		},
+		"alliance": {},
+		"capital_city": {},
+		"settlements": {},
+		"currency": {},
+		"territories": {},
+		"government_type": {},
+		"governing_document": {},
+		"position_title1": {},
+		"position_title2": {},
+		"position_title3": {},
+		"position_title4": {},
+		"position_title5": {},
+		"position_title6": {},
+		"position_name1": {},
+		"position_name2": {},
+		"position_name3": {},
+		"position_name4": {},
+		"position_name5": {},
+		"position_name6": {},
+		"foundation_date": {},
+		"foundation_document": {},
+		"foundation_custom_title1": {
+			"description": "Use for custom foundation titles such as annexed, invented, created, etc",
+			"example": "Annexed",
+			"type": "string"
+		},
+		"foundation_custom_value1": {
+			"description": "the date or document of when it was founded",
+			"example": "10 December 2019"
+		},
+		"preceded_by": {},
+		"succeeded_by": {},
+		"language": {
+			"label": "Spoken Languages",
+			"description": "Languages that are spoken in this civ",
+			"example": "English<br/>Spanish",
+			"type": "content",
+			"suggested": true
+		},
+		"religion": {},
+		"ideology": {},
+		"motto": {
+			"description": "\"MOTTO TEXT\""
+		},
+		"national_anthem": {},
+		"mascot": {},
+		"culture_custom_title1": {},
+		"culture_custom_title2": {},
+		"culture_custom_value1": {},
+		"culture_custom_value2": {},
+		"website": {},
+		"subreddit": {
+			"description": "[https://reddit.com/r/SUBREDDIT/ /r/SUBREDDIT]"
+		},
+		"discord": {
+			"description": "[https://discord.gg/INVITECODE INVITECODE]"
+		},
+		"matrix": {
+			"description": "https://matrix.to/#/#GROUPNAME:HOST"
+		},
+		"area": {
+			"label": "Area (preferably in km²)",
+			"description": "ask on civwiki for more info",
+			"example": "1 km² (as of 20 May 2020)"
+		},
+		"general_custom_title1": {},
+		"general_custom_title2": {},
+		"general_custom_value1": {},
+		"general_custom_value2": {},
+		"national_color": {
+			"label": "National Color",
+			"description": "The national color of the country",
+			"example": "#cf0000 or red or black",
+			"type": "string"
+		},
+		"nat_color_desc": {
+			"label": "National Color Description",
+			"description": "Used to describe the specific name of the national color",
+			"example": "Icenian Blue",
+			"type": "string"
+		},
+		"categories": {
+			"description": "set to no if Civilization category is not desired",
+			"example": "no"
+		},
+		"national_color_2": {},
+		"nat_color_desc_2": {},
+		"national_color_3": {},
+		"nat_color_desc_3": {},
+		"national_color_4": {},
+		"nat_color_desc_4": {},
+		"national_color_5": {},
+		"nat_color_desc_5": {}
+
+	},
+	"description": "Summarize information about a civilization."
+}
+</templatedata>
+</noinclude>
